@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour {
 	#endregion
 
 	#region Unity Methods
+	// Singleton
 	private void Awake() {
 		if (instance == null) {
 			instance = this;
